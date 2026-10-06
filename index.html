@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DV Advogados | Diego Valério - Direito da Saúde e Autismo | São José do Rio Preto - SP</title>
+    <meta name="description" content="DV Advogados - Dr. Diego Valério. Advocacia especializada em Direito da Saúde, Autismo (TEA), Terapias, Medicamentos de Alto Custo e Planos de Saúde em São José do Rio Preto - SP. Agende sua consulta.">
+    <meta name="keywords" content="Advogado Direito da Saúde São José do Rio Preto, DV Advogados, Diego Valerio Advogado, Autismo TEA liminar, Terapias ABA plano de saude, Vila Santa Cruz">
+    
+    <!-- Open Graph / Meta Social -->
+    <meta property="og:title" content="DV Advogados | Diego Valério - Direito da Saúde & Autismo">
+    <meta property="og:description" content="Defesa jurídica intransigente pelo direito à saúde, terapias para autismo (TEA), medicamentos de alto custo e cirurgias em São José do Rio Preto - SP.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- BARRA DE PROGRESSO DE ROLAGEM -->
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+    <!-- TOPBAR / INFORMAÇÕES RÁPIDAS -->
+    <header class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-info">
+                <span class="status-badge" id="statusBadge">
+                    <span class="pulse-dot"></span>
+                    <span id="statusText">Aberto hoje · Fecha às 18:00</span>
+                </span>
+                <span class="top-divider">|</span>
+                <a href="https://goo.gl/maps/search/?api=1&query=Av.+Adolfo+Lutz,+762+-+Vila+Santa+Cruz,+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP" target="_blank" rel="noopener noreferrer" class="top-link">
+                    <i class="fa-solid fa-location-dot"></i> Av. Adolfo Lutz, 762 - Vila Santa Cruz
+                </a>
+            </div>
+            <div class="top-actions">
+                <span class="lgbtq-pill-small">
+                    <span class="pride-strip"></span>
+                    <span>Espaço Acolhedor LGBTQ+</span>
+                </span>
+                <a href="tel:17982187628" class="top-link">
+                    <i class="fa-solid fa-phone"></i> (17) 98218-7628
+                </a>
+                <button id="btnShareTop" class="btn-icon-subtle" title="Compartilhar site" aria-label="Compartilhar site">
+                    <i class="fa-solid fa-share-nodes"></i> Compartilhar
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVEGAÇÃO PRINCIPAL -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-symbol">⚖</span>
+                <div class="logo-text">
+                    <span class="logo-name">DV ADVOGADOS</span>
+                    <span class="logo-tag">DIREITO DA SAÚDE & AUTISMO · DIEGO VALÉRIO</span>
+                </div>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#atuacao" class="nav-link">Áreas de Atuação</a>
+                <a href="#localizacao" class="nav-link">Localização</a>
+                <a href="#contato" class="nav-link">Contato</a>
+                <a href="https://wa.me/5517982187628?text=Ol%C3%A1,%20Dr.%20Diego!%20Gostaria%20de%20consultoria%20sobre%20Direito%20da%20Sa%C3%BAde%20/%20Autismo." target="_blank" class="btn btn-gold nav-btn">
+                    <i class="fa-brands fa-whatsapp"></i> Falar com o Advogado
+                </a>
+            </div>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu de navegação">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge animate-fade">
+                <i class="fa-solid fa-scale-balanced text-gold"></i>
+                <span>Direito da Saúde & Defesa do Autismo em São José do Rio Preto</span>
+            </div>
+
+            <h1 class="hero-title animate-fade delay-1">
+                Defesa dos Seus Direitos na Saúde & <span class="text-gold">Acolhimento no Autismo</span>
+            </h1>
+
+            <p class="hero-subtitle animate-fade delay-2">
+                O escritório <strong>DV Advogados</strong>, sob liderança do advogado <strong>Diego Valério</strong>, é referência em <strong>Direito da Saúde</strong> e <strong>direitos da pessoa autista (TEA)</strong> em São José do Rio Preto e região. Atuação combativa contra negativas de planos de saúde e SUS para garantir tratamentos, medicamentos e terapias vitais.
+            </p>
+
+            <div class="hero-actions animate-fade delay-3">
+                <a href="https://wa.me/5517982187628?text=Ol%C3%A1!%20Preciso%20de%20aux%C3%ADlio%20jur%C3%ADdico%20urgente%20na%20%C3%A1rea%20da%20sa%C3%BAde/autismo." target="_blank" class="btn btn-gold btn-lg">
+                    <i class="fa-brands fa-whatsapp"></i> Consulta Rápida no WhatsApp
+                </a>
+                <a href="#localizacao" class="btn btn-outline-light btn-lg">
+                    <i class="fa-solid fa-route"></i> Ver Endereço & Rotas
+                </a>
+            </div>
+
+            <!-- CARDS DE DESTAQUE HERO -->
+            <div class="hero-highlights animate-fade delay-4">
+                <div class="highlight-item">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <div>
+                        <strong>Terapias Autismo (TEA)</strong>
+                        <p>Liberação de método ABA, Fono e TO sem limite de sessões</p>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <i class="fa-solid fa-hand-holding-medical"></i>
+                    <div>
+                        <strong>Liminares na Saúde</strong>
+                        <p>Atuação de urgência contra negativas de cirurgias e remédios</p>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <i class="fa-solid fa-heart-circle-check"></i>
+                    <div>
+                        <strong>Acolhimento & Respeito</strong>
+                        <p>Empresa que apoia e acolhe a comunidade LGBTQ+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INDICADOR VISUAL DE ROLAGEM -->
+        <a href="#sobre" class="hero-scroll-indicator" aria-label="Rolar para a próxima seção">
+            <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+            <span>Rolar para Explorar</span>
+        </a>
+    </section>
+
+    <!-- CARDS DE INFORMAÇÕES RÁPIDAS (GOOGLE MAPS CARD SUMMARY - 3 COLUNAS) -->
+    <section class="quick-info-bar">
+        <div class="container">
+            <div class="info-grid">
+                <!-- CARD 1: ENDEREÇO & ROTAS -->
+                <div class="info-card hover-lift">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="info-body">
+                        <h3>Endereço</h3>
+                        <p>Av. Adolfo Lutz, 762</p>
+                        <span class="subtext">Vila Santa Cruz, São José do Rio Preto - SP, 15014-140</span>
+                        <div class="plus-code-tag"><i class="fa-solid fa-qrcode"></i> Plus Code: 5JHF+PR</div>
+                    </div>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+Adolfo+Lutz,+762+-+Vila+Santa+Cruz,+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP" target="_blank" rel="noopener noreferrer" class="card-action-btn">
+                        <i class="fa-solid fa-diamond-turn-right"></i> Rotas
+                    </a>
+                </div>
+
+                <!-- CARD 2: HORÁRIO DE ATENDIMENTO -->
+                <div class="info-card hover-lift">
+                    <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div class="info-body">
+                        <h3>Horário de Funcionamento</h3>
+                        <p class="highlight-status"><span class="bullet-green"></span> Aberto hoje</p>
+                        <span class="subtext">Atendimento até as 18:00 (Outros horários sob agendamento)</span>
+                        <span class="badge-pill">Plantão para Casos Urgentes</span>
+                    </div>
+                    <a href="#contato" class="card-action-btn">
+                        <i class="fa-solid fa-calendar-check"></i> Consultar
+                    </a>
+                </div>
+
+                <!-- CARD 3: TELEFONE / WHATSAPP -->
+                <div class="info-card hover-lift">
+                    <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <div class="info-body">
+                        <h3>Telefone & WhatsApp</h3>
+                        <p class="phone-display">(17) 98218-7628</p>
+                        <span class="subtext">Atendimento direto com equipe jurídica</span>
+                    </div>
+                    <a href="https://wa.me/5517982187628?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20jur%C3%ADdico." target="_blank" class="card-action-btn btn-whatsapp-card">
+                        <i class="fa-brands fa-whatsapp"></i> Conversar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE NÓS / DIEGO VALÉRIO -->
+    <section class="section about-section" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images-wrapper">
+                    <div class="image-card-main overlay-container">
+                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80" alt="Dr. Diego Valério Advogado Especialista em Saúde" class="img-responsive">
+                        <div class="image-overlay">
+                            <div class="overlay-text">
+                                <i class="fa-solid fa-heart-pulse fa-2x"></i>
+                                <h4>A Saúde Não Pode Esperar</h4>
+                                <p>Atuação técnica combativa na defesa da vida e do desenvolvimento neurológico infantil.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-card-floating overlay-container">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80" alt="Apoio e terapias para crianças autistas" class="img-responsive">
+                        <div class="image-overlay">
+                            <div class="overlay-text">
+                                <span>Apoio Integral às Famílias Atípicas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">100%</span>
+                        <span class="exp-label">Compromisso com a Saúde</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-tag">Sobre o Escritório</span>
+                    <h2 class="section-title">
+                        DV Advogados <br><span class="text-gold">Diego Valério</span>
+                    </h2>
+                    <p class="paragraph-lead">
+                        Especialista em Direito da Saúde e defensor apaixonado dos direitos de pessoas com Transtorno do Espectro Autista (TEA), o advogado Diego Valério construiu uma trajetória focada em restaurar a dignidade e a esperança de famílias.
+                    </p>
+                    <p class="paragraph">
+                        Com sede na Vila Santa Cruz, em São José do Rio Preto - SP, o escritório combina profundo conhecimento das decisões dos tribunais superiores (STJ e STF) e resoluções da ANS com um olhar humano e empático para cada dor apresentada.
+                    </p>
+
+                    <!-- BADGE LGBTQ+ ACOLHEDOR -->
+                    <div class="lgbtq-badge-box">
+                        <div class="pride-bar"></div>
+                        <div class="badge-content">
+                            <div class="badge-header">
+                                <i class="fa-solid fa-rainbow"></i>
+                                <strong>Empresa que Acolhe a Comunidade LGBTQ+</strong>
+                            </div>
+                            <p>No DV Advogados, todas as pessoas e configurações familiares encontram um porto seguro, livre de preconceitos, com acolhimento genuíno e defesa irrestrita de seus direitos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4>Especialidade em Autismo (TEA)</h4>
+                                <p>Garantia de terapias multidisciplinares (ABA, Fonoaudiologia, Terapia Ocupacional) com profissionais especializados sem cortes ou limitação de carga horária.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4>Rapidez em Medidas Liminares</h4>
+                                <p>Ações prioritárias preparadas em regime de urgência para obtenção de provimentos judiciais rápidos contra operadoras de planos de saúde e SUS.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4>Atendimento Presencial e Online</h4>
+                                <p>Estrutura confortável na Vila Santa Cruz para receber você ou atendimento 100% digital com a mesma proximidade e dedicação.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-cta">
+                        <a href="https://wa.me/5517982187628?text=Ol%C3%A1,%20Dr.%20Diego!%20Gostaria%20de%20conversar%20sobre%20o%20meu%20caso." target="_blank" class="btn btn-gold">
+                            <i class="fa-brands fa-whatsapp"></i> Falar Diretamente com Diego Valério
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO ÁREAS DE ATUAÇÃO COM CARDS E EFEITO HOVER OVERLAY -->
+    <section class="section practice-section" id="atuacao">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Áreas de Especialidade</span>
+                <h2 class="section-title">Direito da Saúde & Defesa do Autismo</h2>
+                <p class="section-subtitle">
+                    Atuação especializada com foco nas demandas mais sensíveis e urgentes de saúde, garantindo tratamentos negados e o futuro de crianças e adultos.
+                </p>
+            </div>
+
+            <div class="practice-grid">
+                <!-- CARD 1: AUTISMO & TERAPIAS MULTIDISCIPLINARES (ABA) -->
+                <div class="practice-card">
+                    <div class="practice-img-box">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80" alt="Terapias para autismo método ABA">
+                        <div class="practice-overlay">
+                            <div class="overlay-inner">
+                                <span class="overlay-tag">Especialidade Principal</span>
+                                <h4>Terapias para Autismo (TEA)</h4>
+                                <p>Ações para cobertura completa pelo plano de saúde das terapias prescritas pelo neuropediatra: Método ABA, Fonoaudiologia, Terapia Ocupacional com Integração Sensorial, sem limitação de sessões.</p>
+                                <a href="https://wa.me/5517982187628?text=Ol%C3%A1,%20Dr.%20Diego!%20Preciso%20de%20ajuda%20para%20liberar%20terapias%20de%20Autismo%20(TEA)." target="_blank" class="overlay-link">
+                                    Garantir Terapias <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="practice-footer">
+                        <div class="practice-title-wrap">
+                            <i class="fa-solid fa-puzzle-piece practice-icon"></i>
+                            <h3>Terapias de Autismo (TEA)</h3>
+                        </div>
+                        <p class="practice-summary">Cobertura integral de método ABA, Fono e Terapia Ocupacional sem coparticipação abusiva ou teto de horas.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 2: MEDICAMENTOS DE ALTO CUSTO -->
+                <div class="practice-card">
+                    <div class="practice-img-box">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=700&q=80" alt="Medicamentos de Alto Custo">
+                        <div class="practice-overlay">
+                            <div class="overlay-inner">
+                                <span class="overlay-tag">SUS & Convênios</span>
+                                <h4>Medicamentos de Alto Custo</h4>
+                                <p>Fornecimento de remédios caros e de uso contínuo negados pelo Estado, município ou plano de saúde, incluindo canabidiol medicinal e fármacos oncológicos.</p>
+                                <a href="https://wa.me/5517982187628?text=Ol%C3%A1,%20Dr.%20Diego!%20Tive%20medicamento%20de%20alto%20custo%20negado." target="_blank" class="overlay-link">
+                                    Obter Medicamento <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="practice-footer">
+                        <div class="practice-title-wrap">
+                            <i class="fa-solid fa-pills practice-icon"></i>
+                            <h3>Medicamentos de Alto Custo</h3>
+                        </div>
+                        <p class="practice-summary">Ações rápidas para fornecimento de remédios vitais negados pelo plano de saúde ou SUS.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 3: CIRURGIAS E PROCEDIMENTOS NEGADOS -->
+                <div class="practice-card">
+                    <div class="practice-img-box">
+                        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=700&q=80" alt="Cirurgias e Procedimentos">
+                        <div class="practice-overlay">
+                            <div class="overlay-inner">
+                                <span class="overlay-tag">Urgência</span>
+                                <h4>Cirurgias & Exames Negados</h4>
+                                <p>Defesa imediata contra negativa indevida de cirurgias, próteses, órteses, exames genéticos complexos (Exoma), radioterapia e quimioterapia.</p>
+                                <a href="https://wa.me/5517982187628?text=Ol%C3%A1!%20Meu%20plano%20de%20sa%C3%BAde%20negou%20cirurgia/exame." target="_blank" class="overlay-link">
+                                    Reverter Negativa <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="practice-footer">
+                        <div class="practice-title-wrap">
+                            <i class="fa-solid fa-hospital-user practice-icon"></i>
+                            <h3>Cirurgias & Procedimentos</h3>
+                        </div>
+                        <p class="practice-summary">Desbloqueio judicial de cirurgias, materiais cirúrgicos e exames genéticos de alta precisão.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 4: HOME CARE E INTERNAÇÃO DOMICILIAR -->
+                <div class="practice-card">
+                    <div class="practice-img-box">
+                        <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=700&q=80" alt="Home Care e Internação Domiciliar">
+                        <div class="practice-overlay">
+                            <div class="overlay-inner">
+                                <span class="overlay-tag">Cuidado Contínuo</span>
+                                <h4>Internação Domiciliar (Home Care)</h4>
+                                <p>Garantia de equipe de enfermagem, fisioterapia, fonoaudiologia respiratória e insumos em domicílio para pacientes acamados ou com perda de autonomia.</p>
+                                <a href="https://wa.me/5517982187628?text=Ol%C3%A1,%20Dr.%20Diego!%20Preciso%20de%20ajuda%20para%20conseguir%20Home%20Care." target="_blank" class="overlay-link">
+                                    Solicitar Home Care <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="practice-footer">
+                        <div class="practice-title-wrap">
+                            <i class="fa-solid fa-house-medical practice-icon"></i>
+                            <h3>Home Care Domiciliar</h3>
+                        </div>
+                        <p class="practice-summary">Transferência segura da estrutura hospitalar para o conforto do lar com cobertura integral.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 5: INCLUSÃO ESCOLAR E ACOMPANHANTE TERAPÊUTICO (AT) -->
+                <div class="practice-card">
+                    <div class="practice-img-box">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80" alt="Inclusão Escolar para Crianças Autistas">
+                        <div class="practice-overlay">
+                            <div class="overlay-inner">
+                                <span class="overlay-tag">Educação Inclusiva</span>
+                                <h4>Inclusão Escolar & Acompanhante (AT)</h4>
+                                <p>Garantia legal de monitor/acompanhante terapêutico individual em escolas públicas ou particulares sem taxa extra, além de adaptação de material escolar.</p>
+                                <a href="https://wa.me/5517982187628?text=Ol%C3%A1!%20A%20escola%20est%C3%A1%20dificultando%20o%20suporte/AT%20para%20meu%20filho." target="_blank" class="overlay-link">
+                                    Garantir Direitos Escolares <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="practice-footer">
+                        <div class="practice-title-wrap">
+                            <i class="fa-solid fa-graduation-cap practice-icon"></i>
+                            <h3>Inclusão Escolar & Suporte</h3>
+                        </div>
+                        <p class="practice-summary">Defesa contra recusa de matrícula e cobrança abusiva de taxas para alunos com TEA.</p>
+                    </div>
+                </div>
+
+                <!-- CARD 6: CANCELAMENTO INDEVIDO E REAJUSTES DE PLANO -->
+                <div class="practice-card">
+                    <div class="practice-img-box">
+                        <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=700&q=80" alt="Rescisão Unilateral de Plano de Saúde">
+                        <div class="practice-overlay">
+                            <div class="overlay-inner">
+                                <span class="overlay-tag">Defesa do Consumidor</span>
+                                <h4>Cancelamento Unilateral & Reajustes</h4>
+                                <p>Reativação de planos de saúde cancelados arbitrariamente durante tratamento médico ou de pessoas autistas, e combate a aumentos abusivos por faixa etária ou sinistralidade.</p>
+                                <a href="https://wa.me/5517982187628?text=Ol%C3%A1,%20Dr.%20Diego!%20O%20plano%20de%20sa%C3%BAde%20foi%20cancelado%20ou%20reajustado%20abusivamente." target="_blank" class="overlay-link">
+                                    Reverter Cancelamento <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="practice-footer">
+                        <div class="practice-title-wrap">
+                            <i class="fa-solid fa-shield-halved practice-icon"></i>
+                            <h3>Cancelamentos & Reajustes</h3>
+                        </div>
+                        <p class="practice-summary">Restabelecimento imediato de contratos de saúde cancelados de forma desumana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO LOCALIZAÇÃO & GOOGLE MAPS -->
+    <section class="section location-section" id="localizacao">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Onde Estamos</span>
+                <h2 class="section-title">Localização na Vila Santa Cruz</h2>
+                <p class="section-subtitle">
+                    Escritório moderno, acolhedor e de fácil acesso em São José do Rio Preto - SP, pronto para receber você e sua família com total conforto e sigilo.
+                </p>
+            </div>
+
+            <div class="location-layout">
+                <!-- DETALHES DE ACESSO -->
+                <div class="location-details-card">
+                    <div class="location-header">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <div>
+                            <h3>DV Advogados</h3>
+                            <span>Direito da Saúde & Autismo · Diego Valério</span>
+                        </div>
+                    </div>
+
+                    <ul class="location-info-list">
+                        <li>
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <div>
+                                <strong>Endereço:</strong>
+                                <span>Av. Adolfo Lutz, 762 - Vila Santa Cruz</span>
+                                <span class="city-state">São José do Rio Preto - SP, CEP: 15014-140</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-compass"></i>
+                            <div>
+                                <strong>Plus Code do Google Maps:</strong>
+                                <span class="code-copy" id="plusCodeCopy" title="Clique para copiar">
+                                    5JHF+PR Vila Santa Cruz, São José do Rio Preto - SP
+                                    <i class="fa-regular fa-copy"></i>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-door-open"></i>
+                            <div>
+                                <strong>Horário de Funcionamento:</strong>
+                                <span>Segunda a Sexta-feira</span>
+                                <span class="time-highlight">Aberto · Fecha às 18:00 (Outros horários sob agendamento)</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <div>
+                                <strong>Telefone Direto / WhatsApp:</strong>
+                                <a href="tel:17982187628" class="phone-link">(17) 98218-7628</a>
+                            </div>
+                        </li>
+                        <li class="lgbtq-highlight-item">
+                            <i class="fa-solid fa-heart"></i>
+                            <div>
+                                <strong>Ambiente Acolhedor:</strong>
+                                <span class="badge-tag-lgbtq"><span class="rainbow-dot"></span> Empresa que acolhe a comunidade LGBTQ+</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- BOTÕES DE AÇÃO GOOGLE MAPS STYLE -->
+                    <div class="maps-actions-toolbar">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+Adolfo+Lutz,+762+-+Vila+Santa+Cruz,+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP" target="_blank" rel="noopener noreferrer" class="btn-map-action btn-map-primary">
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span>Rotas</span>
+                        </a>
+
+                        <button id="btnSalvarLocal" class="btn-map-action">
+                            <i class="fa-regular fa-bookmark"></i>
+                            <span>Salvar</span>
+                        </button>
+
+                        <button id="btnEnviarSmartphone" class="btn-map-action">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>Enviar p/ Celular</span>
+                        </button>
+
+                        <button id="btnCompartilhar" class="btn-map-action">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span>Compartilhar</span>
+                        </button>
+                    </div>
+
+                    <div class="maps-history-note">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span>Seu histórico do Google Maps · Adicionar marcador</span>
+                    </div>
+                </div>
+
+                <!-- MAPA INTERATIVO EMBED -->
+                <div class="map-embed-wrapper">
+                    <iframe 
+                        title="Localização do escritório DV Advogados Diego Valério"
+                        src="https://maps.google.com/maps?q=Av.+Adolfo+Lutz,+762+-+Vila+Santa+Cruz,+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP,+15014-140&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO & AGENDAMENTO -->
+    <section class="section contact-section" id="contato">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-text-column">
+                    <span class="section-tag">Fale Conosco</span>
+                    <h2 class="section-title">Proteja a Saúde e o Futuro de Quem Você Ama</h2>
+                    <p class="section-subtitle">
+                        Tem um tratamento, medicamento ou terapia negada? Não perca tempo: na saúde, cada dia conta. Fale diretamente com o Dr. Diego Valério e equipe.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method-item">
+                            <div class="icon-circle"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <strong>WhatsApp de Atendimento Rápido:</strong>
+                                <a href="https://wa.me/5517982187628" target="_blank">(17) 98218-7628</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method-item">
+                            <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <strong>Ligação Telefônica:</strong>
+                                <a href="tel:17982187628">(17) 98218-7628</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method-item">
+                            <div class="icon-circle"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <strong>Horário de Atendimento:</strong>
+                                <span>Segunda a Sexta · 08:00 às 18:00 (Plantão para Urgências)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="confidentiality-notice">
+                        <i class="fa-solid fa-lock"></i>
+                        <span>Atendimento estritamente sigiloso e respaldado pelo Código de Ética da OAB. Seus dados e laudos médicos estão protegidos.</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-column">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Telefone / WhatsApp *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(17) 98218-7628" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail (opcional)</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Motivo da Consulta</label>
+                            <select id="subject" name="subject">
+                                <option value="Terapias para Autismo (ABA, Fono, TO)">Terapias para Autismo (ABA, Fono, TO)</option>
+                                <option value="Medicamento de Alto Custo Negado">Medicamento de Alto Custo Negado</option>
+                                <option value="Cirurgia ou Exame Negado pelo Plano/SUS">Cirurgia ou Exame Negado pelo Plano/SUS</option>
+                                <option value="Internação / Home Care">Internação Domiciliar / Home Care</option>
+                                <option value="Cancelamento ou Reajuste de Plano">Cancelamento ou Reajuste Abusivo de Plano</option>
+                                <option value="Inclusão Escolar / Acompanhante AT">Inclusão Escolar / Acompanhante AT</option>
+                                <option value="Outro Assunto de Saúde">Outro Assunto de Saúde</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Descreva brevemente a situação ou negativa *</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Conte o que aconteceu (ex: plano negou terapias do meu filho, preciso de liminar urgente)..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-gold btn-block">
+                            <i class="fa-brands fa-whatsapp"></i> Enviar Mensagem para o WhatsApp do Dr. Diego
+                        </button>
+                        <p class="form-note">A mensagem será encaminhada diretamente ao WhatsApp com os dados preenchidos.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-symbol">⚖</span>
+                    <div class="logo-text">
+                        <span class="logo-name">DV ADVOGADOS</span>
+                        <span class="logo-tag">DIREITO DA SAÚDE · DIEGO VALÉRIO</span>
+                    </div>
+                </div>
+                <p class="footer-desc">
+                    Advocacia combativa e humanizada especializada em Direito da Saúde e Autismo (TEA). Lutando pela vida e dignidade das famílias em São José do Rio Preto e em todo o Brasil.
+                </p>
+                <div class="footer-lgbtq">
+                    <span class="pride-strip"></span>
+                    <span>Empresa que acolhe a comunidade LGBTQ+</span>
+                </div>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre o Dr. Diego</a></li>
+                    <li><a href="#atuacao">Áreas de Atuação</a></li>
+                    <li><a href="#localizacao">Como Chegar</a></li>
+                    <li><a href="#contato">Fale Conosco</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Áreas de Atuação</h4>
+                <ul>
+                    <li><a href="#atuacao">Terapias Autismo (ABA)</a></li>
+                    <li><a href="#atuacao">Remédios de Alto Custo</a></li>
+                    <li><a href="#atuacao">Cirurgias e Exames</a></li>
+                    <li><a href="#atuacao">Home Care Domiciliar</a></li>
+                    <li><a href="#atuacao">Inclusão Escolar</a></li>
+                    <li><a href="#atuacao">Reversão de Cancelamento</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-col">
+                <h4>Atendimento</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Av. Adolfo Lutz, 762 - Vila Santa Cruz</p>
+                <p>São José do Rio Preto - SP, 15014-140</p>
+                <p><i class="fa-solid fa-phone"></i> (17) 98218-7628</p>
+                <p><i class="fa-solid fa-clock"></i> Aberto até as 18:00</p>
+                <div class="footer-actions">
+                    <a href="https://wa.me/5517982187628" target="_blank" class="btn btn-sm btn-gold">
+                        <i class="fa-brands fa-whatsapp"></i> Conversar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; <span id="currentYear"></span> DV Advogados - Diego Valério. Todos os direitos reservados.</p>
+                <p class="oab-disclaimer">Este site possui caráter meramente informativo, de acordo com o Provimento nº 205/2021 e o Código de Ética da OAB.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/5517982187628?text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20atendimento%20jur%C3%ADdico." target="_blank" class="floating-whatsapp" aria-label="Falar no WhatsApp" title="Falar com Diego Valério">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="floating-tooltip">Fale com o Advogado</span>
+    </a>
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao início">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- TOAST DE NOTIFICAÇÃO (COPIAR / COMPARTILHAR) -->
+    <div id="toastNotification" class="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Texto copiado!</span>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
